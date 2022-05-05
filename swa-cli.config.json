@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "resh-next-test": {
+      "appLocation": ".",
+      "apiLocation": "/pages/api",
+      "outputLocation": ".",
+      "appBuildCommand": "next build",
+      "run": "next dev",
+      "devServerUrl": "http://localhost:3000",
+      "appName": "resh-next-test",
+      "resourceGroupName": "resh-next-test-rg"
+    }
+  }
+}
